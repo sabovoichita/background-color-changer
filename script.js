@@ -13,5 +13,9 @@ const darkColorsArr = [
 
 function getRandomIndex() {
   console.log(Math.floor(Math.random() * darkColorsArr.length));
+  const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+  return randomIndex;
 }
 getRandomIndex();
+
+const body = document.querySelector("body");
